@@ -1,0 +1,37 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Build artifacts and binaries (do not commit .exe and packages to git repository)
+build/
+dist/
+*.spec
+
+# User local data, configuration, cache, and downloads
+.mmp_config/
+downloads/
+$basetemp/
+.pytest_cache/
+
+# Bundled local binaries (ffmpeg, mpv, and python runtime exceed GitHub 100MB file limit)
+tools/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
